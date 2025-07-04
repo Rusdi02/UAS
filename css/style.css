@@ -1,0 +1,67 @@
+
+body {
+    padding-bottom: 20px;
+}
+.card-img-top {
+    height: 180px; 
+    object-fit: cover; 
+}
+
+.navbar-custom-skyblue {
+    background-color:  #60afcf !important;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-text {
+    transform: scaleX(1);
+    display: inline-block; 
+    transform-origin: left center; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-style: italic;
+    color: white;
+}
+
+.nav-link {
+    color: #131313;;
+}
+
+
+.navbar-text {
+    font-weight: 500;
+    padding-top: var(--bs-nav-link-padding-y);
+    padding-bottom: var(--bs-nav-link-padding-y);
+}
+
+.nav-link:hover{
+    transform: scaleX(1.05);
+    transition: transform 0.2s ease-in-out; 
+    color: white;
+}
+
+body.homepage-background {
+    background-image: url('https://cdn.pixabay.com/photo/2015/11/11/03/12/vacation-1038113_1280.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-grow: 1; 
+}
